@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.timkiem {
+  height: 70px;
+  display: flex;
+  background-color: #d9dee867;
+  align-items: center;
+  justify-content: center;
+}
+.input_timkiem {
+  background-color: #fff;
+  width: 300px;
+  height: 40px;
+  border: 2px solid rgb(135, 127, 127);
+  border-radius: 2px;
+}
+.input_ngay {
+  background-color: #fff;
+  width: 200px;
+  height: 40px;
+  border: 2px solid rgb(135, 127, 127);
+  border-radius: 2px;
+  margin-left: 30px;
+}
+/* .start_date {
+
+} */
+.select_date {
+  top: 25%;
+  margin-left: -120px;
+  border: none;
+  outline: none;
+}
+.ngay {
+  display: flex;
+}
+.select_region {
+  height: 36px;
+  width: 120px;
+  border: 2px solid rgb(135, 127, 127);
+  border-radius: 2px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.button_search button {
+  margin-left: 20px;
+  padding: 9px 16px;
+  background-color: #fe8605;
+  border: 2px solid #fe8605;
+  color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+h2 {
+  color: rgb(11, 11, 98);
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.tour {
+  width: 100%;
+  display: flex;
+  box-shadow: 0px 2px 3px -2px gray;
+  margin-bottom: 30px;
+}
+.tour a {
+  text-decoration: none;
+}
+.anh {
+  padding: 5px;
+  margin-left: 15px;
+  width: 400px;
+  height: 250px;
+}
+.mota {
+  margin-left: 15px;
+  padding: 20px;
+  width: 600px;
+}
+.mota_first a {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(11, 11, 98);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.mota_first a:hover {
+    color: #fe8605;
+}
+
+.mota h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(50, 49, 49);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mota p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.ChiTiet {
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  background-color: #fe8605;
+  margin-top: 80px;
+}
+
+.ChiTiet a {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 40px;
+  cursor: pointer;
+
+}
+
+.footer {
+  margin-top: 30px;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(39, 68, 185);
+}
+.footer-top {
+  display: flex;
+  color: rgb(255, 255, 255);
+  padding: 2rem 5rem;
+}
+.footer-top .infor {
+  width: 40%;
+}
+
+.footer-top p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.footer-top .service-information {
+  width: 20%;
+  margin-left: 80px;
+}
+.footer-top .customer-care {
+  width: 20%;
+  margin-left: -20px;
+}
+.footer-top .contact {
+  width: 20%;
+  margin-left: 80px;
+}
