@@ -56,13 +56,15 @@ li > a:hover {
 
 .nav {
   margin-top: 30px;
-  position: absolute;
+  background-color: rgba(249, 123, 51, 0.526);
+  position: fixed;
   z-index: 1;
+  display: block;
   width: 100%;
 }
 
 .nav-right {
-  height: 60px;
+  height: 50px;
   display: inline-block;
   margin-right: 50px;
   right: 0;
