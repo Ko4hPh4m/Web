@@ -64,6 +64,7 @@ h2 {
   display: flex;
   box-shadow: 0px 2px 3px -2px gray;
   margin-bottom: 30px;
+  position: relative;
 }
 .tour a {
   text-decoration: none;
@@ -74,6 +75,29 @@ h2 {
   width: 400px;
   height: 250px;
 }
+
+.overlay {
+  margin-left: 20px;
+  padding: 12px;
+  margin-bottom: 9px;
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #ffff; 
+  width: 390px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+
+.tour:hover .overlay  {
+  opacity: 1;
+}
+
+
 .mota {
   margin-left: 15px;
   padding: 20px;

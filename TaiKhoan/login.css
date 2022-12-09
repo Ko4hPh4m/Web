@@ -63,6 +63,7 @@ body {
 }
 form a{
   text-align: center;
+  margin-right: 40px;
 }
 form .btn-login {
   text-align: center;
