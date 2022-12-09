@@ -28,3 +28,40 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+// Heandel model overlode
+const model = document.querySelector(".model");
+const mainImg = document.querySelector(".mainEvent");
+const subImg = document.querySelector(".subTourEvent");
+const img = document.querySelector(".modelContainer img");
+
+const mainModel = [
+  {
+    id: 1,
+    src: "./img/banerdulich.png",
+  },
+  {
+    id: 2,
+    src: "./img/subbaner1.png",
+  },
+  {
+    id: 3,
+    src: "./img/subbaner2.png",
+  },
+];
+
+console.log(mainImg);
+
+mainImg.addEventListener("click", () => {
+  img.src = mainModel[0].src;
+  model.style.display = "block";
+});
+
+subImg.addEventListener("click", () => {
+  img.src = mainModel[2].src;
+  model.style.display = "block";
+});
+
+model.addEventListener("click", () => {
+  model.style.display = "none";
+});
