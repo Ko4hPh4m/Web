@@ -38,15 +38,15 @@ const img = document.querySelector(".modelContainer img");
 const mainModel = [
   {
     id: 1,
-    src: "./img/banerdulich.png",
+    src: "./Home/img/banerdulich.png",
   },
   {
     id: 2,
-    src: "./img/subbaner1.png",
+    src: "./Home/img/subbaner1.png",
   },
   {
     id: 3,
-    src: "./img/subbaner2.png",
+    src: "./Home/img/subbaner2.png",
   },
 ];
 
